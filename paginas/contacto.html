@@ -1,3 +1,5 @@
+
+<link rel="stylesheet" href="/css/style.css">
 <form action="#" method="post">
     <fieldset>
         <legend>Datos Personales</legend>
@@ -10,7 +12,7 @@
         <input type="email" id="email"
         name="email" required>
 
-        <labe for="pais">País:</label>
+        <label for="pais">País:</label>
         <select id="pais" name="pais" required>
             <option value="">Selecciona tu país</option>
             <option value="mexico">México</option>
@@ -22,9 +24,12 @@
        <label for="mensaje">Mensaje:</label>
           <textarea id="mensaje" name="mensaje"
          rows="4" required></textarea>
-        <input type="checkbox" id="terminos"
-       name="terminos" required>
+       <div class="check">
+        <input type="checkbox" id="terminos" name="terminos" required>
         <label for="terminos">Acepto los términos</label>
+        </div>
          <button type="submit">Enviar</button>
+         <button ><a href="/index.html">Volver</a></button>
+         <button ><a href="/paginas/proyectos.html">proyectos</a></button>
       </fieldset>
 </form>

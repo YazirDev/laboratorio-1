@@ -46,7 +46,7 @@ nav ul li a:hover {
 }
 
 
-
+/* Estilos para la sección de habilidades */
 
 
 #habilidades {
@@ -86,6 +86,8 @@ nav ul li a:hover {
     transform: translateY(-5px);
     transition: all 0.3s ease;
 }
+
+/* Estilos para la sección de proyectos */
 
 #proyectos {
     background: #f0f0f0;
@@ -148,7 +150,7 @@ nav ul li a:hover {
 
 
 #header-proyectos {
-    background: #817979;
+    background: #e3c1c1;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -180,4 +182,304 @@ nav ul li a:hover {
     margin-bottom: 20px;
     color: #741414;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+#proyectos button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #ff0051;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#proyectos button:hover {
+    background: #410101;
+}
+
+#proyectos button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;   
+    
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+}
+
+
+/* css of the contact section */
+
+#contacto {
+    background: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contacto h2 {
+    margin-bottom: 20px;
+    color: #741414;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+#contacto p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contacto ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#contacto ul li {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 150px;
+    text-align: center;
+}
+
+#contacto ul li:hover {
+    background: #f0f0f0;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+#contacto ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Estilos para la sección de proyectos */
+
+.header-proyectos {
+    background: linear-gradient(135deg, #1e293b, #334155);
+    color:white;
+    padding: 30px 40px;
+}
+
+.header-proyectos h1 {
+   font-size: 2.2rem;
+   margin-bottom: 10px;
+}
+
+.header-proyectos a{
+    color:#38bdf8;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-proyectos a:hover {
+    color: #08405a;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.contenedor-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 40px 20px;
+    background: #f1f5f9;
+}
+
+.card{
+  
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 03s ease;
+    border: 1px solid #e2e8f0;
+}
+
+
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card h3{
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.card p{
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 18px;
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+
+
+.btn:hover{
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    transform: scale(1.05);
+}
+
+.volver{
+    padding: 0 40px 40px;
+}
+
+.volver a{
+
+    display: inline-block;
+    padding : 10px 15px;
+    background: #08405a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+.volver a:hover{
+    background: #0056b3;
+}
+
+/* Estilos para la sección de contacto */
+
+form{
+    font-family: 'Times New Roman', Times, serif;
+    background:linear-gradient(135deg, #0f172a, #1e293b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+fieldset{
+    border: none;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #bcc7e1;
+}
+
+label{
+    display: block;
+    margin-bottom:5px;
+    font-weight: 500;
+    color:#9fbade;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #cbd5f5;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #cbd5f5;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #cbd5f5;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+input:focus{
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59,130,246,0.2);
+}
+
+select:focus{
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59,130,246,0.2);
+}
+
+textarea:focus {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59,130,246,0.2);
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    transform: translateY(-2px);
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.check{
+    display:flex;
+    align-items: center;
+    margin-bottom: 15px;
 }
